@@ -126,6 +126,7 @@ void MainWindow::on_pushButton_clicked()
     }
 
     play_list_view.clear();
+    file_urls.clear();
     emit status_changed(RESET);
 }
 
