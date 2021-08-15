@@ -9,19 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    mainwindow.cpp \
+    src/main.cpp \
+    ui/mainwindow.cpp \
     src/floppymediaplayer.cpp \
     src/utility/windowsutil.cpp
 
 HEADERS += \
-    mainwindow.h \
+    ui/mainwindow.h \
     src/floppymediaplayer.h \
     src/utility/windowsutil.h
 
 FORMS += \
-    floppymediaplayer.ui \
-    mainwindow.ui
+    ui/floppymediaplayer.ui \
+    ui/mainwindow.ui
 
 LIBS  += -luser32
 
